@@ -3,8 +3,8 @@ name: Run Compute
 on:
   workflow_dispatch:
   schedule:
-  # every day 9 UTC
-    - cron:  '0 9 * * *'
+  # every day 14 UTC
+    - cron:  '0 14 * * *'
 
 env:
   aws-region: us-west-2
